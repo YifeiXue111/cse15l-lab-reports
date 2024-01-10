@@ -16,7 +16,7 @@ link here<https://edstem.org/us/dashboard>
 ![Logo][1]
 
 [1]: https://commonmark.org/help/images/favicon.png "Creative Commons licensed"  
-'x=1'
-    a
-    b
-    c
+'x=1'  
+    a  
+    b  
+    c  
