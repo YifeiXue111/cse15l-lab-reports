@@ -12,6 +12,6 @@ nothing here
 3. C
 link here<https://edstem.org/us/dashboard>
 [another link](https://edstem.org/us/dashboard)
-![](https://commonmark.org/help/images/favicon.png)
+![](https://commonmark.org/help/images/favicon.png)  
 ![text][1]:
 [1]:https://commonmark.org/help/images/favicon.png
