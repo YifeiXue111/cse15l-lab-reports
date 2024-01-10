@@ -2,5 +2,16 @@
 this is a file  
 # Chapter
 nothing here  
->one sentence
+>one sentence  
 >another sentence
+- A
+- b
+- c
+1. A
+2. B
+3. C
+link here<https://edstem.org/us/dashboard>
+[another link](https://edstem.org/us/dashboard)
+![](https://commonmark.org/help/images/favicon.png)
+![text][1]:
+[1]:https://commonmark.org/help/images/favicon.png
