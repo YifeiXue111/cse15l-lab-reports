@@ -21,6 +21,6 @@ Some letter
 
     a
     b  
-*Letters:  
-  *a
-  *b
+* Letter
+  * A
+  * B
