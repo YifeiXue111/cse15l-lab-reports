@@ -1,2 +1,2 @@
-*Hello, world!*
-this is a\ file
+*Hello, world!*  
+this is a file
