@@ -9,6 +9,7 @@
    The command ls lists the files in the current working directory, and lecture1 is the only file in the working directory, so lecture1 is shown.  
    This output is not an error.  
 
+
    -**Example2**
    ```
    [user@sahara ~]$ cat
@@ -16,6 +17,7 @@
    The working directory was /home when the command was run.  
    The command cat will read contents from the file given by the path. Since there's no path provided, it does not return anything.  
    This output is not an error.   
+
 
    -**Example3**
    ```
