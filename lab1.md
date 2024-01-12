@@ -28,14 +28,14 @@
    This output is not an error.        
 ***
 2.  **Examples of using the command with a path to a directory as an argument**  
-- **Example1**  
-```
-[user@sahara ~]$ cd lecture1
-[user@sahara ~/lecture1]$
-```
-The working directory was /home when the command was run.  
-The command cd will change the working directory to the given directory. So starting from the next command the working directory is lecture1 instead of /home.  
-This output is not an error.   
+- **Example1**
+  ```
+  [user@sahara ~]$ cd lecture1
+  [user@sahara ~/lecture1]$
+  ```
+  The working directory was /home when the command was run.  
+  The command cd will change the working directory to the given directory. So starting from the next command the working directory is lecture1 instead of /home.  
+  This output is not an error.   
 - **Example2**  
 ```
 [user@sahara ~]$ ls lecture1/messages
