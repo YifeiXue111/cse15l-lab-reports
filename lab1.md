@@ -10,7 +10,7 @@
    This output is not an error.  
 
 
-   - **Example2**
+- **Example2**
    ```
    [user@sahara ~]$ cat
    ```
@@ -19,7 +19,7 @@
    This output is not an error.   
 
 
-   - **Example3**
+- **Example3**
    ```
    [user@sahara ~]$ cd
    ```
