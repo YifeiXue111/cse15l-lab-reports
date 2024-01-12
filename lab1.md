@@ -12,21 +12,20 @@
    ```
    [user@sahara ~]$ cat
    ```
-  The working directory was /home when the command was run.  
-  The command cat will read contents from the file given by the path. Since there's no path provided, it does not return anything.  
-  This output is not an error.  
--**Example3**  
-  ```
-  [user@sahara ~]$ cd
-  ```
-  The working directory was /home when the command was run.  
-  The command cd with no argument will change the working directory to the home directory. In this case since the current directory is already home 
-  directory, nothing is changed.  
-  This output is not an error.  
+   The working directory was /home when the command was run.
+   The command cat will read contents from the file given by the path. Since there's no path provided, it does not return anything.
+   This output is not an error.  
+-**Example3**
+   ```
+   [user@sahara ~]$ cd
+   ```
+   The working directory was /home when the command was run.
+   The command cd with no argument will change the working directory to the home directory. In this case since the current directory is already home directory, nothing is changed.
+   This output is not an error.  
   
   
   
-2.  **Examples of using the command with a path to a directory as an argument**  
+3.  **Examples of using the command with a path to a directory as an argument**  
 **Example1**  
 ```
 [user@sahara ~]$ cd lecture1
