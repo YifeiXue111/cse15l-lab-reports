@@ -56,11 +56,11 @@
 3.  **Examples of using the command with a path to a file as an argument**   
 - **Example1**
   ```
-  [user@sahara ~]$ cat lecture1/Hello.java
-  import java.io.IOException;
-  import java.nio.charset.StandardCharsets;
-  import java.nio.file.Files;
-  import java.nio.file.Path;
+[user@sahara ~]$ cat lecture1/Hello.java
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 public class Hello {
   public static void main(String[] args) throws IOException {
