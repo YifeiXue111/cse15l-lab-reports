@@ -36,31 +36,31 @@
   The working directory was /home when the command was run.  
   The command cd will change the working directory to the given directory. So starting from the next command the working directory is lecture1 instead of /home.  
   This output is not an error.   
-- **Example2**  
-```
-[user@sahara ~]$ ls lecture1/messages
-en-us.txt  es-mx.txt  zh-cn.txt
-```
-The working directory was /home when the command was run.  
-The command ls lists  the files in the given path. There are three files in the folder messages, so the names of the three files are listed in the output.  
-This output is not an error.  
-- **Example3**  
-```
-[user@sahara ~]$ cat lecture1
-cat: lecture1: Is a directory
-```
-The working directory was /home when the command was run.  
-The command cat will read contents from the file given by the path, but in this case a directory is given instead of a file, so an error message is shown.  
-This output is an error because the argument should be a file instead of a directory.   
+- **Example2**
+  ```
+  [user@sahara ~]$ ls lecture1/messages
+  en-us.txt  es-mx.txt  zh-cn.txt
+  ```
+  The working directory was /home when the command was run.
+  The command ls lists  the files in the given path. There are three files in the folder messages, so the names of the three files are listed in the output.
+  This output is not an error.  
+- **Example3**
+  ```
+  [user@sahara ~]$ cat lecture1
+  cat: lecture1: Is a directory
+  ```
+  The working directory was /home when the command was run.
+  The command cat will read contents from the file given by the path, but in this case a directory is given instead of a file, so an error message is shown.
+  This output is an error because the argument should be a file instead of a directory.   
 ***
 3.  **Examples of using the command with a path to a file as an argument**   
-- **Example1**  
-```
-[user@sahara ~]$ cat lecture1/Hello.java
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
+- **Example1**
+  ```
+  [user@sahara ~]$ cat lecture1/Hello.java
+  import java.io.IOException;
+  import java.nio.charset.StandardCharsets;
+  import java.nio.file.Files;
+  import java.nio.file.Path;
 
 public class Hello {
   public static void main(String[] args) throws IOException {
