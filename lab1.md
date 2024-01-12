@@ -16,7 +16,8 @@
    The working directory was /home when the command was run.  
    The command cat will read contents from the file given by the path. Since there's no path provided, it does not return anything.  
    This output is not an error.   
--**Example3**
+
+   -**Example3**
    ```
    [user@sahara ~]$ cd
    ```
