@@ -27,8 +27,8 @@
    The command cd with no argument will change the working directory to the home directory. In this case since the current directory is already home directory, nothing is changed.  
    This output is not an error.        
 ***
-   2.  **Examples of using the command with a path to a directory as an argument**  
-**Example1**  
+2.  **Examples of using the command with a path to a directory as an argument**  
+- **Example1**  
 ```
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
@@ -36,7 +36,7 @@
 The working directory was /home when the command was run.  
 The command cd will change the working directory to the given directory. So starting from the next command the working directory is lecture1 instead of /home.  
 This output is not an error.   
-**Example2**  
+- **Example2**  
 ```
 [user@sahara ~]$ ls lecture1/messages
 en-us.txt  es-mx.txt  zh-cn.txt
@@ -44,7 +44,7 @@ en-us.txt  es-mx.txt  zh-cn.txt
 The working directory was /home when the command was run.  
 The command ls lists  the files in the given path. There are three files in the folder messages, so the names of the three files are listed in the output.  
 This output is not an error.  
-**Example3**  
+- **Example3**  
 ```
 [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
@@ -54,7 +54,7 @@ The command cat will read contents from the file given by the path, but in this 
 This output is an error because the argument should be a file instead of a directory.   
 ***
 3.  **Examples of using the command with a path to a file as an argument**   
-**Example1**  
+- **Example1**  
 ```
 [user@sahara ~]$ cat lecture1/Hello.java
 import java.io.IOException;
@@ -72,7 +72,7 @@ public class Hello {
 The working directory was /home when the command was run.  
 The command cat will read contents from the file given by the path, so the output includes the contents in the file Hello.java.  
 This output is not an error.  
-**Example2**   
+- **Example2**   
 ```
 [user@sahara ~]$ cd lecture1/Hello.java 
 bash: cd: lecture1/Hello.java: Not a directory
@@ -80,7 +80,7 @@ bash: cd: lecture1/Hello.java: Not a directory
 The working directory was /home when the command was run.  
 The command cd will change the working directory to the given directory. In this case a file instead of a directory is given, so the output is an error message.  
 This output is an error because the argument should be a directory instead of a file.  
-**Example3**    
+- **Example3**    
 ```
 [user@sahara ~]$ ls lecture1/Hello.java
 lecture1/Hello.java
