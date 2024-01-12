@@ -22,9 +22,9 @@ This output is not an error.
 The working directory was /home when the command was run.  
 The command cd with no argument will change the working directory to the home directory. In this case since the current directory is already home directory, nothing is changed.
 This output is not an error. 
-
-
-
+  
+  
+  
 2.  Example of using the command with a path to a directory as an argument[user@sahara ~]$ cat lecture1/Hello.java
 ```
 import java.io.IOException;
