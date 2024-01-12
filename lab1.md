@@ -66,25 +66,25 @@
   public static void main(String[] args) throws IOException {
       String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);
       System.out.println(content);
-   }
- }
- ```
-The working directory was /home when the command was run.  
-The command cat will read contents from the file given by the path, so the output includes the contents in the file Hello.java.  
-This output is not an error.  
-- **Example2**   
-```
-[user@sahara ~]$ cd lecture1/Hello.java 
-bash: cd: lecture1/Hello.java: Not a directory
-```
-The working directory was /home when the command was run.  
-The command cd will change the working directory to the given directory. In this case a file instead of a directory is given, so the output is an error message.  
-This output is an error because the argument should be a directory instead of a file.  
-- **Example3**    
-```
-[user@sahara ~]$ ls lecture1/Hello.java
-lecture1/Hello.java
-```
-The working directory was /home when the command was run.  
-The command ls lists  the files in the given path, the given path is a file, so the file itself is the output.  
-This output is not an error.  
+    }
+  }
+  ```
+  The working directory was /home when the command was run.
+  The command cat will read contents from the file given by the path, so the output includes the contents in the file Hello.java.
+  This output is not an error.  
+- **Example2**
+  ```
+  [user@sahara ~]$ cd lecture1/Hello.java
+  bash: cd: lecture1/Hello.java: Not a directory
+  ```
+  The working directory was /home when the command was run.
+  The command cd will change the working directory to the given directory. In this case a file instead of a directory is given, so the output is an error message.
+  This output is an error because the argument should be a directory instead of a file.  
+- **Example3**
+- ```
+  [user@sahara ~]$ ls lecture1/Hello.java
+  lecture1/Hello.java
+  ```
+  The working directory was /home when the command was run.
+  The command ls lists  the files in the given path, the given path is a file, so the file itself is the output.
+  This output is not an error.  
