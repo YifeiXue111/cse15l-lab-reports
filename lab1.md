@@ -1,6 +1,6 @@
 # Lab Report1
 1. **Examples of using the command with no arguments**  
--**Example1**
+- **Example1**
    ```
    [user@sahara ~]$ ls
    lecture1
@@ -10,7 +10,7 @@
    This output is not an error.  
 
 
-   -**Example2**
+   - **Example2**
    ```
    [user@sahara ~]$ cat
    ```
@@ -19,7 +19,7 @@
    This output is not an error.   
 
 
-   -**Example3**
+   - **Example3**
    ```
    [user@sahara ~]$ cd
    ```
