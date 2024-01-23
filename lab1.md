@@ -29,7 +29,7 @@
    The working directory was `/home` when the command was run.  
    The command cd with no argument will change the working directory to the home directory. In this case since the current directory is already home directory, nothing is changed.  
    This output is not an error.        
-***
+  
 2. **Examples of using the command with a path to a directory as an argument**  
 - **Example1**
   ```
@@ -55,7 +55,7 @@
   The working directory was `/home` when the command was run.  
   The command cat will read contents from the file given by the path, but in this case a directory is given instead of a file, so an error message is shown.  
   This output is an error because the argument should be a file instead of a directory.   
-***
+  
 3. **Examples of using the command with a path to a file as an argument**   
 - **Example1**
   ```
