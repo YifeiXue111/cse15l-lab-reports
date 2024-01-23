@@ -31,7 +31,7 @@
    This output is not an error.
         
   ***
-  
+
 2. **Examples of using the command with a path to a directory as an argument**  
 - **Example1**
   ```
@@ -59,7 +59,7 @@
   This output is an error because the argument should be a file instead of a directory.
   
   ***
-  
+
 3. **Examples of using the command with a path to a file as an argument**   
 - **Example1**
   ```
