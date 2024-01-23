@@ -13,9 +13,12 @@
 - **Example2**
    ```
    [user@sahara ~]$ cat
+   input
+   input
    ```
    The working directory was `/home` when the command was run.  
-   The command cat will read contents from the file given by the path. Since there's no path provided, it does not return anything.  
+   The command cat will read contents from the file given by the path. Since there's no path provided, it will read from the input and return the
+   contents in the input.  
    This output is not an error.   
 
 
