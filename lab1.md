@@ -1,5 +1,5 @@
 # Lab Report1
-1. **Examples of using the command with no arguments**  
+1.**Examples of using the command with no arguments**  
 - **Example1**
    ```
    [user@sahara ~]$ ls
@@ -32,7 +32,7 @@
         
   ***
 
-2. **Examples of using the command with a path to a directory as an argument**  
+2.**Examples of using the command with a path to a directory as an argument**  
 - **Example1**
   ```
   [user@sahara ~]$ cd lecture1
@@ -60,7 +60,7 @@
   
   ***
 
-3. **Examples of using the command with a path to a file as an argument**   
+3.**Examples of using the command with a path to a file as an argument**   
 - **Example1**
   ```
   [user@sahara ~]$ cat lecture1/Hello.java
