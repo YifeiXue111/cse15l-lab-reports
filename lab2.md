@@ -1,0 +1,2 @@
+# Lab2 Report
+![Image](1cda6826e3698f00b43138dcaea3efb.png)
