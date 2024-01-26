@@ -35,14 +35,14 @@ public class ChatServer {
 }
 ```
 ![Image](85430753c456b9abb352794d8a292f5.png)
-The method `handleRequest` is called.  
+Method `handleRequest` is called.  
 The argument is the `http://localhost:4000/add-message?s=Hello&user=a`.  
-There are two fields in the class: `outcome`(a String), `page_print`(a String). The value of `outcome` is ` `. The value of `page_print` is ` `.  
+There are two fields in the class: `outcome`(a String), `page_print`(a String). The value of `outcome` is `""`(empty String). The value of `page_print` is `""`(empty String).  
 The value of `outcome` changed to `a: Hello` when the method is called.  
 The value of `page_print` changed to `a: Hello` when the method is called.
 
 ![Image](037ff13b782edd17f57021f8ea1a332.png)
-The method `handleRequest` is called.  
+Method `handleRequest` is called.   
 The argument is the `http://localhost:4000/add-message?s=Hi&user=b`.  
 There are two fields in the class: `outcome`(a String), `page_print`(a String). The values of `outcome` is `a: Hello` when the method is called. The value of `page_print` is `a: Hello` when the method is called.  
 The value of `outcome` changed to `b: Hi` when the method is called.  
