@@ -50,6 +50,6 @@ The value of `page_print` changed to `a: Hello b: Hi` when the method is called.
 ## Part 2
 ![Image](54d5bfd29eff369e4d02938566f38c0.png)
 ![Image](1822ca3fc30ab2d116dbaed4182a08e.png)
-![Image](21f917ab1b5248a52f54f7b7fbdc259.png)
+![Image](45827f484df4e425eb4bfc8868fe7d0.png)
 ## Part 3
 I learned how to start a web server through codes and how to make changes on the web page through the codes.
