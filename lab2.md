@@ -44,12 +44,15 @@ The value of `page_print` changed to `a: Hello` when the method is called.
 ![Image](037ff13b782edd17f57021f8ea1a332.png)
 The method `handleRequest` is called.  
 The argument is the `http://localhost:4000/add-message?s=Hi&user=b`.  
-There are two fields in the class: `outcome`(a String), `page_print`(a String). The values of `outcome` is `a: Hello` when the method is called. The value of `page_print` is `a: Hell`o when the method is called.  
+There are two fields in the class: `outcome`(a String), `page_print`(a String). The values of `outcome` is `a: Hello` when the method is called. The value of `page_print` is `a: Hello` when the method is called.  
 The value of `outcome` changed to `b: Hi` when the method is called.  
 The value of `page_print` changed to `a: Hello b: Hi` when the method is called. 
 ## Part 2
-![Image](54d5bfd29eff369e4d02938566f38c0.png)
+Absolute path to the private key
 ![Image](1822ca3fc30ab2d116dbaed4182a08e.png)
+Absolute path to the public key
 ![Image](45827f484df4e425eb4bfc8868fe7d0.png)
+Terminal interaction
+![Image](54d5bfd29eff369e4d02938566f38c0.png)
 ## Part 3
-I learned how to start a web server through codes and how to make changes on the web page through the codes.
+I learned how to start a web server through codes and how to make changes on the web page through the codes. I also learned how to log in the remote account.
