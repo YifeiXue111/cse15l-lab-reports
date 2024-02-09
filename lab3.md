@@ -130,7 +130,7 @@ output:
 
   -size option examples:  
   command:  
-'find -size +100k'  
+`find -size +100k`  
 output:  
 `./911report/chapter-1.txt
 ./911report/chapter-12.txt
