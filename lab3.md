@@ -166,3 +166,9 @@ command:
 output:  
 `  `(nothing is returned in the terminal)  
 -size option can match files based on size  
+
+  Prompts I gave to chatgpt`give me some options for find command`  
+  The output of chatgpt:  
+  ![Image](e8b1f1c5546c04ffe22509ecc1ee256.png)  
+  ![Image](a2b3aa8be371a3c8b08c70a4e2a2276.png)  
+  I applied four options provided by chatgpt and changed the parameter of the command to produce different output.
