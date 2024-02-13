@@ -10,7 +10,7 @@ static void reverseInPlace(int[] arr) {
 ```
 The JUnit Test with `int[] input1 = { 3,4 }` as failure inducing input:
 ```
-public void testReverseInPlace() {
+public void testReverseInPlaceFailureInducing() {
     int[] input1 = { 3,4 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 4,3 }, input1);
@@ -18,16 +18,16 @@ public void testReverseInPlace() {
 ```
 The JUnit Test with `int[] input2 = { 3 }` as an input that doesn't induce a failure:
 ```
-public void testReverseInPlace() {
+public void testReverseInPlaceNoFailure() {
     int[] input2 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input2);
 	}
 ```
 The symptom of failure
-![Image](228b21060d8a219b6f58da894f77d75.png)
+![Image](451fef4afd30b49de07d79a30698a8a.png)
 The symptom that doesn't induce failure
-![Image](202703687ac8f0775e4e00b8f1d9734.png)
+![Image](9b77ff7b515dfcad800d0be8e99ac1f.png)
 Before code change
 ```
 static void reverseInPlace(int[] arr) {
