@@ -14,7 +14,7 @@ public void testReverseInPlaceFailureInducing() {
     int[] input1 = { 3,4 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 4,3 }, input1);
-	}
+}
 ```
 The JUnit Test with `int[] input2 = { 3 }` as an input that doesn't induce a failure:
 ```
@@ -22,7 +22,7 @@ public void testReverseInPlaceNoFailure() {
     int[] input2 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input2);
-	}
+}
 ```
 The symptom of failure
 ![Image](451fef4afd30b49de07d79a30698a8a.png)
