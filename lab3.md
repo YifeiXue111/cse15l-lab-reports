@@ -39,12 +39,10 @@ static void reverseInPlace(int[] arr) {
 After code change
 ```
 static void reverseInPlace(int[] arr) {
-    int[] temp=new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      temp[i] = arr[i];
-    }
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = temp[arr.length - i - 1];
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp=arr[i];
+      arr[i]=arr[arr.length-1-i];
+      arr[arr.length-1-i]=temp;
     }
   }
 ```
@@ -59,11 +57,12 @@ output:
 ./biomed/1468-6708-3-3.txt
 ./biomed/1468-6708-3-4.txt
 ./biomed/1468-6708-3-7.txt`  
+-name option can search the files with specific name and patterns.In the case it searchs the file name that contains "1468".  
 command:  
 `find . -name 1468-6708-3-1.txt`  
 output:  
 `./biomed/1468-6708-3-1.txt`  
--name option can search the files with specific name and patterns.
+-name option can search the files with specific name and patterns. In the case it searchs the file name that contains "1468-6708-3-1.txt".  
   
 -mtime option examples:  
 command:  
@@ -83,15 +82,16 @@ output:
 ./biomed/1471-2334-2-6.txt
 ./biomed/1471-2334-2-7.txt
 ./biomed/1471-2334-3-10.txt`  (all the files in current directory, here's just the first 14 files)  
+-mtime option can finds files modified within the last given days. In this case it searchs the files that can be found within the last 7 days.  
 command:  
 `find . -mtime -1`   
 output:  
 `  `(noting is returned in the terminal)  
--mtime option can finds files modified within the last given days.  
+-mtime option can finds files modified within the last given days. In this case it searchs the files that can be found within the last 1 day.   
 
 -type f option examples:  
 command:  
-`find /path/to/directory -type f`  
+`find ./biomed -type f`  
 output:  
 `./biomed/1471-2334-1-13.txt
 ./biomed/1471-2334-1-17.txt
@@ -107,6 +107,7 @@ output:
 ./biomed/1471-2334-2-6.txt
 ./biomed/1471-2334-2-7.txt
 ./biomed/1471-2334-3-10.txt`  (all the files in current directory, here's just the first 14 files)  
+-type f options can search for regular files within a specified directory.  In this case it searchs the files in ./biomed directory.  
 command:  
 `find ./government/Post_Rate_Comm -type f`  
 output:  
@@ -124,7 +125,7 @@ output:
 ./government/Post_Rate_Comm/Redacted_Study.txt
 ./government/Post_Rate_Comm/ReportToCongress2002WEB.txt
 ./government/Post_Rate_Comm/WolakSpeech_usps.txt`  
--type f options can search for regular files within a specified directory.  
+-type f options can search for regular files within a specified directory.  In this case it searchs the files in ./government/Post_Rate_Comm directory.  
 
 
 
@@ -161,11 +162,12 @@ output:
 ./government/Gen_Account_Office/pe1019.txt
 ./government/Gen_Account_Office/Sept27-2002_d02966.txt
 ./government/Gen_Account_Office/Statements_Feb28-1997_volume.txt`  
+-size option can match files based on size. In this case it searchs the files that is of size greater than 100k.    
 command:  
 `find . -size 500c`  
 output:  
 `  `(nothing is returned in the terminal)  
--size option can match files based on size  
+-size option can match files based on size. In this case it searchs the files that is of size 500c.    
 
   Prompts I gave to chatgpt`give me some options for find command`  
   The output of chatgpt:  
