@@ -6,9 +6,7 @@ Hi! I met a problem when working with the copyArray method. This method takes an
 TA Answer:  
 It seems you created a shallow copy of the input array. The returned array and the input array are pointing to the same address. To fix this, try to create a new array when copying the input array.
 ## The file and directory structure  
-```
 ![Image](d97622601e91dcfefb2c3eed2d10cf3.png) 
-```
 ## The contents of each file before fixing the bug
 The contents in CopyArray.java
 ```
@@ -45,4 +43,6 @@ public class TestCopyArray{
 ```
  int[] returnedArray=inputArray;
 ```
+## Fixing the bug
+The student only makes the shallow copy the the input array and assign it to 'int[] returnedArray'
 
