@@ -1,5 +1,5 @@
 # Lab5 Report
-Studnet Post:  
+Student Post:  
 Hi! I met a problem when working with the copyArray method. This method takes an array as input, copy the input array to another array and then change the value of the first element. It is expected to return the copy of the original input array. But when I run the Junit test, the test fails and shows that the first element of the returned array is also changed. I think the problem is when I changed the value of input array, the value of the returned array is changed accordingly. I am pretty confused why the returned array is affected by the input array. Could you help me figure out why this happens? Thank you for your help.
 ![Image](49aea8e416e91b2e38cc31ee0ca197b.png) 
 
@@ -33,7 +33,7 @@ import java.util.List;
 public class TestCopyArray{
     @Test
     public void testCopyArray(){
-        int[] input={0,1,2};
+        int[] input={1,2,3};
         int[] result=CopyArray.copyArray(input);
         assertEquals(1,result[0]);
     }
@@ -44,5 +44,15 @@ public class TestCopyArray{
  int[] returnedArray=inputArray;
 ```
 ## Fixing the bug
-The student only makes the shallow copy the the input array and assign it to 'int[] returnedArray'
+The student only makes the shallow copy of the input array and assign it to `int[] returnedArray`. `inputArray` and `returnedArray` are pointing to the same address, so when changing `inpoutArray`, the array saved in that addressed changed, `returnedArray` is also changed. To fix this, the student needs to create a deep copy of the `inputArray`. Instead of `int[] returnedArray=inputArray;`, the student should do the following:
+```
+int[] returnedArray=new int[inputArray.length];
+        for(int i=0;i<inputArra.length;i++){
+            returnedArray[i]=inputArray[i];
+        }
+```
+## The output after fixing
+![Image](e303e13d05d485a1469c6e23b58f86b.png) 
+
+The skill that impressed me the most is using vim and jdb. It is cool to edit the file using vim in the terminal, and it is useful to use jdb to debug when no knowing what's going wrong.
 
